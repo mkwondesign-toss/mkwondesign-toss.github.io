@@ -83,15 +83,14 @@ select.form-control:not([size]):not([multiple]) {
     color: #000;
 }
 
-.placeholder-text {
+span.placeholder-text {
     color: #c2cadc;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.8;
 }
 
-span.placeholder-text,
-input-filled {
+span.input-filled {
     color: #333;
     font-weight: 400;
 }
