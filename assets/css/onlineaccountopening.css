@@ -1,0 +1,198 @@
+
+@media screen and (min-width: 480px) {
+    #onlineaccountopening {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background-color: #eaedf3;
+    }
+    .wrapper {
+        width: 360px;
+        margin: 0px auto;
+        padding-bottom: 40px;
+        border-radius: 4px;
+        background-color: #ffffff;
+        box-shadow: 0px 2px 8px #9ba7c6;
+    }
+}
+
+
+.progress{
+    background-color:   #eaedf3;
+    border-radius: 0px;
+    height: 5px;
+}
+
+.progress-bar-custom {
+    background: #ffbc00;
+}
+
+.content{
+    margin: 20 30;  
+    
+}
+
+.input-field-container{
+    width: inherit;
+    margin-top: 20px;
+} 
+
+
+.form-group{
+    align-items: center;
+}
+
+.form-control {
+    height: 46px;
+    border: 1px solid #c2cadc;
+    border-radius: 3px;
+    align-content: center;
+}
+
+.input-group-addon {
+    border: 1px solid #c2cadc;
+    border-radius: 3px;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: 46px;
+}
+
+
+.btn{
+    line-height: inherit;
+}
+
+.btn-lg{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.btn-outline-accent{
+    height: 46px;
+    border-radius: 3px;
+    text-align: center;
+    width: 75%;
+}
+
+.input-field-container .btn-group {
+    width: 100%;
+}
+
+.input-field-container .btn-group .btn {
+    width: 50%;
+}
+
+.zipcode{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.placeholder-text{
+    color: #c2cadc;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.content .address-list .address-type {
+    color: #8995b9;
+    color: #8995b9;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+
+
+p{
+    word-break: break-all;
+}
+
+
+label{
+    font-size: 0.875rem;
+    letter-spacing: -1px;
+}
+
+hr{
+    border-top: 1px solid #c9d0e1;
+}
+
+.form-control::-moz-placeholder {
+    color: #c2cadc;
+    font-size: 17px;
+    font-weight: 200;
+
+}
+.form-control:-ms-input-placeholder {
+    color: #c2cadc;
+    font-size: 17px;
+    font-weight: 200;
+
+
+}
+.form-control::-webkit-input-placeholder {
+    color: #c2cadc;
+    font-size: 17px;
+    font-weight: 200;
+
+}
+
+.content .btn-group .active {
+    background-color: #dbe4fe;
+    border: 1px solid #4e7bfa;
+    color: #4e7bfa;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.btn-accent.disabled, .btn-accent:disabled {
+    background-color: #e0e0e0;
+    border-color: #e0e0e0;
+    color: #ccc;
+}
+
+.address-list{
+    margin-top: 20px;
+    border-top: 1px solid #c9d0e1;
+}
+.address-li{
+    margin-top: 0px;
+    border-bottom: 1px solid #c9d0e1;
+    padding: 15 0 5 0;
+    cursor: pointer;
+}
+
+.address-not-found{
+    margin: 40 5;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #c9d0e1;
+    text-align: center;
+    color: #5c6476;
+}
+
+.input-field-container .wrong-value {
+    border-color: #db5237;
+    color: #db5237;
+}
+
+.input-field-container .wrong-value input,
+.input-field-container .wrong-value .input-group-addon {
+    border-color: #db5237;
+}
+
+.input-field-container .input-validation input {
+    border-right: none;
+}
+
+.input-field-container .input-validation .input-group-addon {
+    background-color: #fff;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
