@@ -90,6 +90,12 @@ select.form-control:not([size]):not([multiple]) {
     line-height: 1.8;
 }
 
+span.placeholder-text,
+input-filled {
+    color: #333;
+    font-weight: 400;
+}
+
 .content .address-list .address-type {
     color: #8995b9;
     color: #8995b9;
@@ -162,6 +168,18 @@ hr {
     border-bottom: 1px solid #c9d0e1;
     text-align: center;
     color: #5c6476;
+}
+
+p.legal-agreements {
+    font-size: 15px;
+    color: #666;
+    padding-left: 35px;
+}
+
+.legal-agreements a {
+    font-size: 14px;
+    padding-left: 5px;
+    text-decoration: underline;
 }
 
 .input-field-container .wrong-value {

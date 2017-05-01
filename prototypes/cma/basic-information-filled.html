@@ -1,0 +1,120 @@
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 위 3개의 메타 태그는 *반드시* head 태그의 처음에 와야합니다; 어떤 다른 콘텐츠들은 반드시 이 태그들 *다음에* 와야 합니다 -->
+    <title> Toss 비대면 계좌 개설 </title>
+
+    <!-- Toss 공용 CSS 문서의 맨 처음에 와야 합니다;-->
+    <link href="https://toss.im/frame/assets/stylesheets/tossframe-2.0.1.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/onlineaccountopening.css">
+
+
+</head>
+
+<body>
+
+    <div id="onlineaccountopening">
+        <div class="wrapper">
+            <div class="progress">
+                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 5em; width: 5%;">
+                </div>
+            </div>
+
+            <div class="content">
+                <p>기본 정보 입력</p>
+                <div class="input-field-container">
+                    <label for="sm">자택주소* </label>
+                    <a button class="form-control" type="text" id="sm" href="address-search.html"> <span class="placeholder-text input-filled"> 서울시 서초구 잠원로 14길 41 한양아...</span> </a>
+                </div>
+                <div class="input-field-container">
+                    <label for="sm">자금의 실 소유주가 맞습니까?* </label>
+                    <div id="accountholder" class="btn-group" role="group">
+                        <button type="button" class="btn btn-secondary active">네, 맞습니다.</button>
+                        <button type="button" class="btn btn-secondary">아니요.</button>
+                    </div>
+                </div>
+                <div class="input-field-container">
+                    <label for="sm">대한민국의 국민이며 납세의 의무가 있습니까?* </label>
+                    <div id="accountholder" class="btn-group" role="group">
+                        <button type="button" class="btn btn-secondary active">네 </button>
+                        <button type="button" class="btn btn-secondary">아니오 </button>
+                    </div>
+                </div>
+                <div class="input-field-container">
+                    <label for="sm">이메일 주소*</label>
+                    <input class="form-control" type="email" id="sm" placeholder="정확한 이메일 주소를 적어주세요." value="tosstoss@toss.im">
+                </div>
+                <div class="input-field-container">
+                    <label for="sm"> 직업 (선택) </label>
+                    <select class="form-control custom-select">
+                  <option selected> 선택없음 </option>
+                  <option value="1">사무직</option>
+                  <option value="2">자영업자</option>
+                  <option value="3">전문직</option>
+                  <option value="4">군인</option>
+                  <option value="5">공무원</option>
+                  <option value="6">학생</option>
+                  <option value="7">주부</option>
+                  <option value="8">무직</option>
+                  <option value="9">기타</option>
+
+                </select>
+
+                </div>
+                <div class="input-field-container">
+                    <div class="form-group row">
+                        <div class="col-6">
+                            <label for="sm"> 거래목적 (선택) </label>
+                            <select class="form-control custom-select">
+                  <option selected> 선택없음</option>
+                  <option value="1">적극적 재산증식</option>
+                  <option value="2">노후생활자금마련</option>
+                  <option value="3">자녀교육및결혼자금마련</option>
+                  <option value="4">부동산구입자금마련</option>
+                  <option value="5">공모주청약실적유지</option>
+                  <option value="6">기타</option>
+
+                  </select>
+                        </div>
+                        <div class="col-6">
+                            <label for="sm"> 자금의원천 (선택) </label>
+                            <select class="form-control custom-select">
+                  <option selected> 선택없음</option>
+                  <option value="1">근로소득</option>
+                  <option value="2">사업소득</option>
+                  <option value="3">이자소득</option>
+                  <option value="4">부동산임대소득</option>
+                  <option value="5">부동산주식등양도소득</option>
+                  <option value="6">퇴직소득</option>
+                  <option value="7">상속</option>
+                  <option value="8">증여</option>
+                  <option value="9">금융기관등차입</option>
+                  <option value="10">배당소득</option>
+                  <option value="11">기타</option>
+
+                  </select>
+                        </div>
+                    </div>
+                </div>
+                <a href="password-setup.html" class="btn btn-accent btn-lg btn-block">다음 </a>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
