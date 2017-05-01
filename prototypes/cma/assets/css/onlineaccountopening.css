@@ -49,7 +49,7 @@
     border-radius: 3px;
 }
 
-select.form-control:not([size]):not([multiple]) {
+select.form-control:not([size]):not([multiple]) {   
     height: 46px;
 }
 
@@ -67,6 +67,10 @@ select.form-control:not([size]):not([multiple]) {
     height: 46px;
     border-radius: 3px;
     text-align: center;
+}
+
+.btn btn-outline-accent btn-block{
+    font-size: 17px;
 }
 
 .input-field-container .btn-group {
@@ -95,8 +99,7 @@ span.input-filled {
     font-weight: 400;
 }
 
-.content .address-list .address-type {
-    color: #8995b9;
+.content .address-list .address-type {    color: #8995b9;
     color: #8995b9;
     font-size: 14px;
     font-weight: 600;
@@ -148,6 +151,8 @@ hr {
     border-color: #e0e0e0;
     color: #ccc;
 }
+
+
 
 .address-list {
     margin-top: 20px;
