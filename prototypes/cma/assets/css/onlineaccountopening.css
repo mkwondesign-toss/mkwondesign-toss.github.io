@@ -28,11 +28,17 @@
     margin: 20 30;
 }
 
+.account-opening {
+    background-image: url("../images/image.svg");
+    min-height: inherit;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
 .input-field-container {
     width: inherit;
     margin-top: 20px;
 }
-
 .form-group {
     align-items: center;
 }
@@ -49,7 +55,7 @@
     border-radius: 3px;
 }
 
-select.form-control:not([size]):not([multiple]) {   
+select.form-control:not([size]):not([multiple]) {
     height: 46px;
 }
 
@@ -69,7 +75,7 @@ select.form-control:not([size]):not([multiple]) {
     text-align: center;
 }
 
-.btn btn-outline-accent btn-block{
+.btn btn-outline-accent btn-block {
     font-size: 17px;
 }
 
@@ -99,7 +105,8 @@ span.input-filled {
     font-weight: 400;
 }
 
-.content .address-list .address-type {    color: #8995b9;
+.content .address-list .address-type {
+    color: #8995b9;
     color: #8995b9;
     font-size: 14px;
     font-weight: 600;
@@ -151,8 +158,6 @@ hr {
     border-color: #e0e0e0;
     color: #ccc;
 }
-
-
 
 .address-list {
     margin-top: 20px;
