@@ -16,23 +16,21 @@
 </head>
 
 <body>
-    <div id=toss-bitcoin>
-        <div class="wrapper">
 
-            <div class="btc-image"></div>
-            <div class="contents">
-                <h1 class="h4">지금 가장 핫한 비트코인,<br> 그 스릴을 지금 Toss에서 사고 팔며 느껴보세요. </h1>
-                <p> • Toss에서 실시간 비트코인 구매 및 판매 가능 <br> • Toss에 등록된 은행계좌를 통한 거래 <br> • 국내 최대 중개 서비스 Korbit의 안전한 거래망 사용 <br> • 추후 Korbit을 통한 비트코인 출금 기능 추가 예정<br><br>
-                    <strong>아래 약관에 동의하면 비트코인 거래 서비스를 시작합니다.</strong><br><br>
-                    <a href="">서비스 약관 <strong>></strong> </a><br>
-                    <a href="">개인정보 제 3자 제공 동의 <strong>></strong> </a>
-                </p>
-                <a class="btn btn-accent btn-lg btn-block" href="btc-dashboard.html" style="text-decoration: none;border-radius: 3px; margin-top:2rem;">모두 동의하고 진행합니다.</a>
+    <table class="w-100" style="height: 100vh;">
 
-            </div>
 
-        </div>
-    </div>
+        <tbody>
+
+            <tr>
+
+                <td class="h5 align-middle text-center">
+                    <div id=progressbar>
+                    </div><br><br> 요청하신 주문을<br>처리하고 있습니다.</td>
+            </tr>
+        </tbody>
+    </table>
+
 
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -40,6 +38,32 @@
     <script src="https://toss.im/frame/assets/javascripts/tossframe-2.0.0.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://toss.im/tossframe/assets/javascripts/tossframe.js"></script>
+    <script src="assets/javascripts/progressbar.js"></script>
+    <script>
+        var bar = new ProgressBar.Circle(progressbar, {
+            color: '#4e7bfa',
+            trailColor: '#eee',
+            trailWidth: 1,
+            duration: 1400,
+            easing: 'bounce',
+            strokeWidth: 6,
+            from: {
+                color: '#50e3c2',
+                a: 0
+            },
+            to: {
+                color: '#4e7bfa',
+                a: 1
+            },
+            // Set default step function for all animate calls
+            step: function(state, circle) {
+                circle.path.setAttribute('stroke', state.color);
+            }
+        });
+
+        bar.animate(1.0); // Number from 0.0 to 1.0
+
+    </script>
 
 </body>
 

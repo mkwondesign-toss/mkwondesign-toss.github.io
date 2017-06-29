@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 위 3개의 메타 태그는 *반드시* head 태그의 처음에 와야합니다; 어떤 다른 콘텐츠들은 반드시 이 태그들 *다음에* 와야 합니다 -->
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Toss 비트코인 거래</title>
+
+
+    <!-- Toss Framework CDN // CSS -->
+    <link href="https://toss.im/frame/assets/stylesheets/tossframe-2.0.2.css" rel="stylesheet">
+    <link href="assets/css/tossbitcoin.css" rel="stylesheet">
+</head>
+
+<body class="no-padding-grid">
+    <div id=toss-bitcoin>
+        <div class="wrapper">
+            <div id="dashboard">
+                <div class="btc-container">
+                    <h6>1BTC 실시간 시세</h6>
+                    <div class="money-currency">
+                        <span class=money> 3,053,000</span><span class="currency">KRW</span>
+                    </div>
+                    <div class="contents">
+                        <span class="currency-rate">
+                        <!-- 고정 -->
+                        24시간 변동률
+                        <!-- 변동값 -->
+                        <strong>+ 3.25%</strong>
+                        </span>
+                    </div>
+                </div>
+                <hr>
+                <div class="btc-container">
+                    <h6>내 보유 자산</h6>
+                    <div class="money-currency">
+                        <span class=money> 0.03</span><span class="currency">BTC</span>
+                    </div>
+                    <div class="contents" style="margin: 0;">
+                        <span class="currency-rate" style="font-size:18px; font-weight:400; border: none;">
+                        ≈ 100,000 KRW
+                    </span>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-group-wrap">
+                <div class="btn-group" role="group">
+                    <a class="btn btn-outline-accent btn-lg" href="btc-sell.html" role="button"><strong>판매하기</strong></a>
+                    <a class="btn btn-outline-accent btn-lg" href="btc-buy.html" role="button"><strong>구매하기</strong></a>
+                </div>
+            </div>
+
+            <!-- 내 거래내역 -->
+            <div class="divider"> 내 거래내역 </div>
+
+            <div class="container">
+
+                <!-- 구매 내역 -->
+                <div class="row list-btc">
+                    <div class="col-2">
+                        <span class="label-box pink500">구매</span>
+                    </div>
+                    <div class="col-10">
+                        <span class="paid-amount">1.5 BTC = 1,175,000 KRW</span><br>
+                        <span class="red600-text bold">체결가 2,350,000 원 / 1 BTC</span><br>
+                        <div class="time-stamp">2017.05.30 15:00 </div>
+                    </div>
+                </div>
+
+                <!-- 판매 내역 -->
+                <div class="row list-btc">
+                    <div class="col-2">
+                        <span class="label-box ABlue500">판매</span>
+                    </div>
+                    <div class="col-10">
+                        <span class="paid-amount">1.5 BTC = 1,175,000 KRW</span><br>
+                        <span class="blue600-text bold">체결가 2,350,000 원 / 1 BTC</span><br>
+                        <div class="time-stamp">
+                            2017.05.30 15:00
+                            <!-- 입금 대기 중일 때만 나타나는 라벨 -->
+                            <span class="transfer-delay">입금 진행 중</span></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://toss.im/frame/assets/javascripts/tossframe-2.0.0.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://toss.im/tossframe/assets/javascripts/tossframe.js"></script>
+
+
+</body>
+
+</html>

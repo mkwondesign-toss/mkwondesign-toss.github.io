@@ -1,0 +1,313 @@
+*, p, h1, h2, h3, h4, h5, h6 {
+  word-break: keep-all;
+}
+
+@media screen and (min-width: 480px) {
+    #toss-bitcoin {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background-color: #fff;
+    }
+    .wrapper {
+        width: 360px;
+        margin: 0px auto;
+        border: 1px #d6dbe7;
+        padding-bottom: 60px;
+        border-radius: 2px;
+        background-color: #ffffff;
+        box-shadow: 0px 2px 8px #9ba7c6;
+    }
+}
+
+#dashboard {
+    background: #3e63bc;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#3e63bc, #103bb4, #0c2c87);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3e63bc, #103bb4, #0c2c87);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3e63bc, #103bb4, #0c2c87);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3e63bc, #103bb4, #0c2c87);
+    /* Standard syntax */
+}
+
+.btc-image {
+    background-image: url(../image/btc_background.svg);
+    background-color: #144ae1;
+    width: auto;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contents {
+    margin: 20px;
+}
+
+.contents .h4,
+p {
+    line-height: 1.5;
+    color: #333;
+}
+
+.contents a {
+    text-decoration: underline;
+    line-height: 2;
+}
+
+.contents button {
+    height: 52px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.btc-container {
+    padding-top: 2rem;
+    padding-bottom: 2.24rem;
+    align-content: center;
+    text-align: center;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+}
+
+.btc-container>h6 {
+    margin-bottom: 1rem;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.btc-container>.contents {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.money {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: helvetica, SFUIText, sans-serif;
+}
+
+.currency {
+    display: inline-block;
+    padding-left: 2px;
+    font-family: helvetica, SFUIText, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.currency-rate {
+    border: 0.5px solid #edf2fe;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: helvetica, SFUIText, sans-serif;
+}
+
+hr {
+    border: dotted 2px #edf2fe;
+    border-style: none none dotted;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.btn-group-wrap {
+    text-align: center;
+    margin-bottom: .75rem;
+}
+
+.btn-group {
+    margin: 1rem auto;
+    height: inherit;
+    text-align: center;
+    width: inherit;
+    display: inline-flex;
+    position: relative;
+    line-height: 10px;
+    box-shadow: 0 3px 10px 2px rgba(154, 167, 197, 0.39);
+}
+
+.btn-group>.btn-outline-accent {
+    text-align: center;
+    line-height: 0.2rem;
+    padding: 35px;
+}
+
+.divider {
+    height: 2.5rem;
+    background-color: #edf2fe;
+    border: solid 1px #d6dbe7;
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 15px;
+    font-weight: bold;
+    color: #1f3164;
+}
+
+.list-btc {
+    padding: 1.25rem;
+    border-bottom: 1px solid #d6dbe7;
+}
+
+.no-padding-grid [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.paid-amount {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #111111;
+}
+
+.time-stamp {
+    margin-top: .75rem;
+    color: #7b859d;
+    vertical-align: middle;
+}
+
+.label-box {
+    border-radius: 3px;
+    padding: .25rem;
+    font-size: .85rem;
+    color: white;
+}
+
+.transfer-delay {
+    margin-left: .25rem;
+    border-radius: 2px;
+    background-color: #7195fb;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 300;
+    padding: .2rem;
+}
+
+.input-field-container {
+    margin-left: 2rem;
+    padding-top: 2rem;
+}
+
+.form-control {
+    padding: 0;
+    font-size: 2rem;
+    font-family: helvetica, sans-serif;
+    color: #111;
+}
+
+.form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #c2cadc;
+}
+
+.form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #c2cadc;
+}
+
+input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #c2cadc;
+}
+
+input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #c2cadc;
+}
+
+.blue-text {
+    color: #144ae1;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: table;
+    transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+.modal-container {
+    max-width: 540px;
+    /* min-width: 300px; */
+    margin: 0px auto;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header {}
+
+.modal-header h4 {
+    margin: 0;
+}
+
+.modal-body {
+    margin: 10px 0;
+}
+
+.modal-default-button {
+    float: right;
+}
+
+.btc-modal-mask {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.btc-modal-wrapper {
+    padding: 0 12px;
+}
+
+.btc-modal-container {
+    max-width: 500px;
+    border: 1px solid #bbbbbb;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.btc-modal-header {
+    text-align: center;
+    display: block;
+}
+
+.btc-modal-header h4 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.btc-modal-footer {
+    display: block;
+    align-content: center;
+    text-align: center;
+}
+
+#progressbar {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}

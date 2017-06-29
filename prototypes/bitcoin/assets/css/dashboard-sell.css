@@ -1,0 +1,40 @@
+.list-btc {
+    padding: 1.25rem;
+    border-bottom: 1px solid #d6dbe7;
+}
+
+.no-padding-grid [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.paid-amount {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #111111;
+}
+
+.time-stamp {
+    margin-top: .75rem;
+    color: #7b859d;
+    vertical-align: middle;
+}
+
+.label-box {
+    border-radius: 3px;
+    padding: .25rem;
+    font-size: .85rem;
+    color: white;
+}
+
+.transfer-delay {
+    margin-left: .25rem;
+    border-radius: 2px;
+    background-color: #7195fb;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 300;
+    padding: .2rem;
+}

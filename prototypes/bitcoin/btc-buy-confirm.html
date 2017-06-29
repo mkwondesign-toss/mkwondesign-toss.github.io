@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 위 3개의 메타 태그는 *반드시* head 태그의 처음에 와야합니다; 어떤 다른 콘텐츠들은 반드시 이 태그들 *다음에* 와야 합니다 -->
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Toss 비트코인 거래</title>
+
+
+    <!-- Toss Framework CDN // CSS -->
+    <link href="https://toss.im/frame/assets/stylesheets/tossframe-2.0.2.css" rel="stylesheet">
+    <link href="assets/css/tossbitcoin.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id=toss-bitcoin>
+        <div class="wrapper mb-7 mt-3">
+
+            <!--  modal  -->
+            <div class="modal-mask btc-modal-mask">
+                <div class="modal-wrapper btc-modal-wrapper">
+                    <div class="modal-container btc-modal-container">
+                        <div class="modal-header btc-modal-header">
+                            <h4>주문 승인</h4>
+                        </div>
+                        <div class="modal-body">
+                            <!-- 이 아래 부분을 '구매' 혹은 '판매'로 바꿔주세요 -->
+                            <p><strong>0.4 BTC</strong>를 구매하시겠습니까?<br> 총 지출액: <span class="blue-text">800,500</span><strong> 원</strong></p>
+
+                            <div id=progressbar>
+                            </div>
+                            <div class="blue-text" style="color:#103bb4;">00:08</div>
+                            <p style="color:#7b859d; margin: 1rem 2rem">매 10초 후 새로운 시세로 새로고침 됩니다.</p>
+
+
+                        </div>
+                        <div class="modal-footer btc-modal-footer">
+                            <a class="btn btn-outline-accent btn-lg" href="">
+                            취소
+                        </a>
+                            <a class="btn btn-accent btn-lg" href="order-processing.html">
+                            승인
+                        </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 뒤의 화면 -->
+            <div class="input-field-container">
+                <label for="sm" style="font-weight:600; color:#111; font-size:1rem; margin-bottom:0;">구매할 BTC</label>
+                <input class="form-control" type="number" step="0.01" style="border: none;" placeholder="0.03 BTC">
+            </div>
+            <h3 class="input-field-container" style="color:#aeb8d0; padding-top:2rem;">≈</h3>
+            <div class="input-field-container mb-7">
+                <label for="sm" style="font-weight:600; color:#111; font-size:1rem;">예상 지출액</label>
+                <input class="form-control" type="number" step="0.01" style="border: none;" placeholder="100,000 KRW">
+            </div>
+
+            <a href="#" class="btn btn-accent btn-block btn-lg" role="button" aria-pressed="true" style="border-radius:0px; height:60px; position: fixed; bottom:0px; left:0; right:0; line-height:1.7;">주문 체결하기</a>
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://toss.im/frame/assets/javascripts/tossframe-2.0.0.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://toss.im/tossframe/assets/javascripts/tossframe.js"></script>
+    <script src="assets/javascripts/progressbar.js"></script>
+    <script>
+        var bar = new ProgressBar.Circle(progressbar, {
+            strokeWidth: 15,
+            easing: 'easeInOut',
+            duration: 1400,
+            color: '#144ae1',
+            trailColor: '#EBEBEB',
+            trailWidth: 15,
+            svgStyle: null
+        });
+
+        bar.animate(1.0); // Number from 0.0 to 1.0
+    </script>
+
+
+</body>
+
+</html>

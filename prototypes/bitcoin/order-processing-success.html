@@ -17,30 +17,40 @@
 
 <body>
     <div id=toss-bitcoin>
-        <div class="wrapper">
+        <div class="wrapper" style="padding-top:200px; vertical-align:center; padding-bottom: 300px;">
+            <h5 style="text-align:center;">요청하신 주문을<br>처리하고 있습니다.</h5>
+            <!--  modal  -->
+            <div class="modal-mask btc-modal-mask">
+                <div class="modal-wrapper btc-modal-wrapper">
+                    <div class="modal-container btc-modal-container">
+                        <div class="modal-header btc-modal-header" style="border-bottom:none; padding-top:2rem;">
+                            <h4 style="color: #144ae1; font-size:1rem;">주문 성공</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p style=""><strong>0.4 BTC</strong>주문이 체결되었습니다.<br> 해당 금액: <span class="blue-text">800,500</span><strong> 원</strong></p>
 
-            <div class="btc-image"></div>
-            <div class="contents">
-                <h1 class="h4">지금 가장 핫한 비트코인,<br> 그 스릴을 지금 Toss에서 사고 팔며 느껴보세요. </h1>
-                <p> • Toss에서 실시간 비트코인 구매 및 판매 가능 <br> • Toss에 등록된 은행계좌를 통한 거래 <br> • 국내 최대 중개 서비스 Korbit의 안전한 거래망 사용 <br> • 추후 Korbit을 통한 비트코인 출금 기능 추가 예정<br><br>
-                    <strong>아래 약관에 동의하면 비트코인 거래 서비스를 시작합니다.</strong><br><br>
-                    <a href="">서비스 약관 <strong>></strong> </a><br>
-                    <a href="">개인정보 제 3자 제공 동의 <strong>></strong> </a>
-                </p>
-                <a class="btn btn-accent btn-lg btn-block" href="btc-dashboard.html" style="text-decoration: none;border-radius: 3px; margin-top:2rem;">모두 동의하고 진행합니다.</a>
 
+
+                        </div>
+                        <div class="modal-footer btc-modal-footer" style="border-top: none; padding-top:0px;">
+                            <a class="btn btn-accent btn-lg" href="btc-dashboard.html" style="display:block; border-radius:3px;">
+                            확인
+                        </a>
+
+
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
+
     </div>
+
 
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://toss.im/frame/assets/javascripts/tossframe-2.0.0.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://toss.im/tossframe/assets/javascripts/tossframe.js"></script>
 
 </body>
-
 </html>
